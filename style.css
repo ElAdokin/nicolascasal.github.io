@@ -79,6 +79,10 @@ span{
   border-bottom: 3px solid var(--main-color);
 }
 
+#language{
+    display: none;
+}
+
 .gradient-btn{
   font-size: 1.8rem;
   padding: 1rem 2rem;
@@ -430,9 +434,13 @@ section{
   .navbar.active{
     display: block;
   }
+  #language{
+    display: contents;
+  }
   .gradient-btn{
     display: none;
   }
+  
   .home{
     flex-direction: column-reverse;
     margin: 5rem 0;
