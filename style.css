@@ -249,7 +249,7 @@ section{
 
 .heading{
   text-align: center;
-  font-size: 7rem;
+  font-size: 5rem;
   margin: 5rem 0;
 }
 .services{
@@ -357,6 +357,7 @@ section{
 .contact h2{
   margin-bottom: 3rem;
   color: var(--text-color);
+  font-size: 4rem;
 }
 .contact form{
   display: flex;
