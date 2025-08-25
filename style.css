@@ -324,6 +324,7 @@ section{
   align-items: center;
   text-align: center;
   background-color: var(--bg-color);
+  height: 500px;
   border: 2px solid var(--main-color);
   border-radius: 3rem;
   gap: 2rem;
