@@ -66,6 +66,9 @@ span{
     color: transparent;
 }
 
+#language{
+    display: none;
+}
 .navbar a{
   font-size: 1.8rem;
   color: var(--text-color);
@@ -77,10 +80,6 @@ span{
 .navbar a:hover{
   color: var(--main-color);
   border-bottom: 3px solid var(--main-color);
-}
-
-#language{
-    display: none;
 }
 
 .gradient-btn{
