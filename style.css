@@ -366,6 +366,7 @@ section{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   gap: 3rem;
   margin: 5rem 0;
   text-align: center;
@@ -379,7 +380,17 @@ section{
   background-color: var(--bg-color);
   border-radius: 2rem;
   border: 2px solid var(--main-color);
-  margin: 1.5rem 0;
+  margin: 2rem 0;
+  resize: none;
+}
+
+#result{
+  width: 100%;
+  padding: 2.5rem;
+  font-size: 1.8rem;
+  color:  var(--text-color);
+  background-color: var(--bg-color);
+  margin: 2rem 0;
   resize: none;
 }
 
@@ -466,9 +477,6 @@ section{
   }
   .about img{
     width: 52vw;
-  }
-  .contact form{
-    flex-direction: column;
   }
 }
 
