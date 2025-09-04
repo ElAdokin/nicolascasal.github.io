@@ -342,7 +342,7 @@ section{
   font-size: 3rem;
 }
 .project-card p{
-  max-width: 400px;
+  width: 400px;
   font-size: 1.6rem;
 }
 .project-card a{
@@ -471,6 +471,10 @@ section{
   }
   .about img{
     width: 52vw;
+  }
+
+  .project-card p{
+    max-width: 300px;
   }
 }
 
