@@ -479,6 +479,21 @@ section{
   }
 }
 
+@media(min-width:720px){
+  section{
+    min-height: 100vh;
+    padding: 5rem 15%;
+  }
+
+  .service-box{
+    height: 600px;
+  }
+
+  .service-info h4{
+    font-size: 4rem;
+  }
+}
+
 .animate-in {
   -webkit-animation: fadeIn 1s ease-in;  
   animation: fadeIn 1s ease-in;
