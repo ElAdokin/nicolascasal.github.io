@@ -105,8 +105,7 @@ span{
 }
 
 section{
-  min-height: 100vh;
-  padding: 10rem 15%;
+  padding: 10rem 2rem;
 }
 
 .home
@@ -271,7 +270,6 @@ section{
   justify-content: center;
   align-items: center;
   background-color: var(--main-color);
-  height: 600px;
   border-radius: 3rem;
   cursor: pointer;
   border: 5px solid transparent;
@@ -292,7 +290,7 @@ section{
   padding: 5rem;
 }
 .service-info h4{
-  font-size: 4rem;
+  font-size: 2rem;
   margin: 2rem 0;
   font-weight: 800;
 }
@@ -319,12 +317,8 @@ section{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   background-color: var(--bg-color);
-  height: 500px;
   border: 2px solid var(--main-color);
   border-radius: 3rem;
   gap: 2rem;
@@ -349,6 +343,7 @@ section{
 }
 .project-card p{
   font-size: 1.6rem;
+  width: 400px;
 }
 .project-card a{
   color: black;
