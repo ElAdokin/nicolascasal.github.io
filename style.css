@@ -342,7 +342,7 @@ section{
   font-size: 3rem;
 }
 .project-card p{
-  width: 400px;
+  max-width: 400px;
   font-size: 1.6rem;
 }
 .project-card a{
